@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--META-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TITLE-->
+    <title>BenBurguer</title>
+    <link rel="shortcut icon" href="img/benburgermdq-20211025-0001.jpg" type="image/x-icon">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Rampart+One&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/comoPedir.css">
+    <link rel="stylesheet" href="assets/css/flotantes.css">
+    <script src="https://kit.fontawesome.com/7d7ba43b2d.js" crossorigin="anonymous"></script>
+
+    <!--script-->
+    <script src="assets/js/smooth-scroll.min.js"></script>
+    <script>
+        smoothScroll.init({
+        selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+        selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+        speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+        callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+      </script>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="logo">
+                <a href="index.html">BenBurger</a>
+            </div>
+            <label for="nav-checked" class="nav_label">
+                <img src="img/menu.svg" class="nav_img" alt="">
+            </label>
+            <input type="checkbox" id="nav-checked" class="nav-input">
+             <div class="nav-bar">
+                <div class="items-bar">
+                    <a  data-scroll href="#inicio">Inicio</a>
+                </div>
+                <div class="items-bar">
+                    <a  data-scroll href="#nosotros">Nosotros</a>
+                </div>
+                <div class="items-bar">
+                    <a  data-scroll href="menu.html">Menú</a>
+                </div>
+                <div class="items-bar">
+                    <a data-scroll href="#comoPedir">Cómo Pedir</a>
+                </div>
+            </div>
+        </nav>
+  </header>
+  <section class="slider">
+    <div class="slider__contenedor" id="inicio">
+        <div class="slide active" style="background-image: url(./img/background.jpg);">
+            <div class="contenedor">
+                <div class="titulo">
+                    <img src="./img/benburgermdq-20211024-0002.jpg" class="slider1">
+                    <div class="descripcion">
+                        <p class="estiloUnico">Ven y prueba nuestra deliciosa hamburguesa Honey Hot con aros </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url(./img/background.jpg);">
+            <div class="contenedor">
+                <div class="titulo">
+                    <img src="./img/hot honey.jpg">
+                    <div class="descripcion">
+                        <p class="estiloUnico">¿Se te ocurre algo mas rico para la cena?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url(./img/benburgermdq-20211025-0003.jpg);">
+            <div class="contenedor">
+                <div class="titulo">
+                    <div class="descripcion">
+                        <h1>BENBURGER</h1>
+                        <p>disfruta a todo hora de una hamburguesa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="controles">
+        <div class="prev"><</div>
+        <div class="next">></div>
+    </div>
+    <div class="indicador"></div>
+  </section>
+  <section class="menus"  id="menus">
+      <div class="menu-contenedor">
+          <div class="menu-title">
+              <h1>MENÚ</h1>
+          </div>
+          <div class="menu-prod">
+              <div class="menu-items">
+                  <img src="img/productos/american beauty.jpg" alt="">
+                  <img src="img/productos/benburgermdq-20211024-0003.jpg" alt="">
+                  <img src="img/productos/benburgermdq-20211024-0004.jpg" alt="">
+              </div>
+              <div class="menu-items">
+                    <img src="img/productos/benburgermdq-20211024-0006.jpg" alt="">
+                    <img src="img/productos/benburgermdq-20211025-0004.jpg" alt="">
+                    <img src="img/productos/elemmenthal watson.jpg" alt="">
+              </div>
+              <div class="menu-items">
+                    <img src="img/productos/benburgermdq-20211025-0006.jpg" alt="">
+                    <img src="img/productos/super chuni.jpg" alt="">
+                    <img src="img/productos/fried onion.jpg" alt="">
+              </div>
+          </div>
+          <div class="btn-menu">
+              <a href="menu.html">Ver Completo</a>
+          </div>
+      </div>
+  </section>
+  <section class="pedir" id="comoPedir">
+      <div class="pedir-contenedor">
+          <div class="pedir-info">
+              <h1>CÓMO PEDIR</h1>
+              <p>¿que tengo que hacer?</p>
+          </div>
+          <div class="pedir-grid">
+              <div class="grid-pasos">
+                  <span>1</span>
+                  <h1>Elegir</h1>
+                  <p>Elige desde nuestro <a href="menu.html">menú</a> la hamburguesa que desees</p>
+              </div>
+              <div class="grid-pasos">
+                 <span>2</span>
+                 <h1>Comprar</h1>
+                 <p>Cuando hayas encontrado tu hamburguesa, le das al boton de comprar donde se le enviara a Whatsapp(Whatsapp web en caso de escritorio)</p>
+              </div>
+              <div class="grid-pasos">
+                 <span>3</span>
+                 <h1>Coordinacion</h1>
+                 <p>Completaras los datos dentro del mensaje y su hamburguesa sera enviada a la brevedad</p>
+              </div>
+              <div class="grid-pasos">
+                 <span>4</span>
+                 <h1>Disfruta</h1>
+                 <p>Ahora si es hora de disfrutar de una rica hamburguesa</p>
+             </div>
+          </div>
+      </div>
+  </section>
+  <div class="flotantes">
+    <input type="checkbox" id="btn-mas">
+    <div class="icon__social">
+        <a href="https://www.instagram.com/benburgermdq/" target="_blank">
+        <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+    <div class="icon__social">
+        <a href="https://api.whatsapp.com/send?phone=542236752452" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <div class="icon__social">
+        <a href="https://api.whatsapp.com/send?phone=542236215874" target="_blank">
+         <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <div class="icon__social">
+        <a href="mailto:benburgermdq@gmail.com" target="_blank">
+        <i class="far fa-envelope"></i>
+        </a>
+    <div class="btn-mas">
+        <label for="btn-mas">
+            <i class="fas fa-plus"></i>
+        </label>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="assets/js/slider.js"></script>
+</body>
+</html>

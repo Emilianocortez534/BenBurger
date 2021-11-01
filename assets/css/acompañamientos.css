@@ -1,0 +1,137 @@
+.acompanamientos{
+    min-height: 120vh;
+    padding: 47px 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: black;
+}
+
+.acompanamientos-cont{
+    
+    display: inherit;
+    max-width: 1200px;
+    justify-content: inherit;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.acompanamientos-title {
+    
+   text-align: center;
+
+}
+
+.acompanamientos-title h1{
+    font-size: 40px;
+    color: white;
+}
+
+
+.acompanamientos-title h1{
+   
+    text-align: center;
+}
+
+.acompanamientos-grid{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 20px;
+}
+
+
+
+.papas-info{
+    text-align: center;
+    padding-right: 80px;
+    padding: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.papas-info h1{
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.papas-menu{
+    display: flex;
+    border-bottom: 1px solid white;
+    
+}
+
+.papas-menu h3{
+    font-size: 20px;
+}
+
+.papas-menu span{
+    margin-left: 50px;
+    font-size: 20px;
+    float: right;
+}
+
+.bebidas-info{
+    text-align: center;
+    padding-right: 80px;
+    padding: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.bebidas-info h1{
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.bebidas-menu{
+    display: flex;
+    border-bottom: 1px solid white;
+    
+    
+}
+
+.bebidas-menu h3{
+    font-size: 20px;
+}
+
+.bebidas-menu span{
+    margin-left: 50px;
+    font-size: 20px;
+    float: right;
+}
+
+
+.topping-info{
+    text-align: center;
+    padding-right: 80px;
+    padding: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.topping-info h1{
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.toppings-menu{
+    display: flex;
+    border-bottom: 1px solid white;
+    
+}
+
+.toppings-menu h3{
+    font-size: 20px;
+}
+
+.toppings-menu span{
+    margin-left: 50px;
+    font-size: 20px;
+    float: right;
+}
+
+@media (max-width: 590px){
+    .acompanamientos-grid{
+    grid-template-columns: 1fr;
+    }
+}
