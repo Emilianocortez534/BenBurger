@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurguerMenú</title>
+     <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Rampart+One&display=swap" rel="stylesheet">
+     <!--CSS-->
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/menu-productos.css">
+    <link rel="stylesheet" href="assets/css/acompañamientos.css">
+    <link rel="stylesheet" href="assets/css/flotantes.css">
+    <!--SCRIPT-->
+    <script src="assets/js/smooth-scroll.min.js"></script>
+     <script src="https://kit.fontawesome.com/7d7ba43b2d.js" crossorigin="anonymous"></script>
+    <script>
+        smoothScroll.init({
+        selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+        selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+        speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+        callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+      </script>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="logo">
+                <a href="index.html">BenBurger</a>
+            </div>
+            <label for="nav-checked" class="nav_label">
+                <img src="img/menu.svg" class="nav_img" alt="">
+            </label>
+            <input type="checkbox" id="nav-checked" class="nav-input">
+             <div class="nav-bar">
+                <div class="items-bar">
+                    <a  data-scroll href="#burgers">BURGERS</a>
+                </div>
+                <div class="items-bar">
+                    <a  data-scroll href="#acompañamientos">PAPAS</a>
+                </div>
+                <div class="items-bar">
+                    <a  data-scroll href="#acompañamientos">BEBIDAS</a>
+                </div>
+                <div class="items-bar">
+                    <a data-scroll href="#toppings">TOPPINGS</a>
+                </div>
+            </div>
+        </nav>
+  </header>
+    <main class="main">
+        <h1 class="main-title">BURGERS</h1>
+         <section  id="burgers" class="hambuguer">
+          <div class="page-content">
+            <div class="productos-content">
+                <img src="img/productos/cheeseburger.jpg" class="Producto-Img">
+                <h1 class="card-title">CHEESEBURGER</h1>
+                <p>BURGER CON DOBLE CHEDDAR </p>
+               <span class="precio"> SIMPLE : <b>$490</b> <br>
+               DOBLE:  <b>$600</b>
+               </span>
+               <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236752452&text=Hola,%20me%20interesa%20pedir%20un%20CHEESEBURGER(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+             <div class="productos-content">
+                <img src="#" class="Producto-Img">
+                <h1 class="card-title">CUARTITO DE BEN</h1>
+                <p>HOMENAJE AL CUARTO DE LIBRA</p>
+                <span class="precio"> SIMPLE : <b>$510</b> <br>
+                    DOBLE:  <b>$620</b>
+                </span>
+               <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236215874&text=Hola,%20me%20interesa%20pedir%20un%20CUARTITO%20DE%20BEN(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="img/productos/bacon cheeseburger.jpg" class="Producto-Img">
+                <h1 class="card-title">BACON CHEESEBURGER</h1>
+                <p>BURGER CON DOBLE CHEDDAR Y BACON</p>
+                <span class="precio"> SIMPLE : <b>$540</b> <br>
+                    DOBLE:  <b>$630</b>
+                </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236752452&text=Hola,%20me%20interesa%20pedir%20un%20BACON%20CHEESEBURGER(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="img/productos/fried onion.jpg" class="Producto-Img">
+                <h1 class="card-title">FRIED ONION</h1>
+                <p>BURGER CON CEBOLLA Y DOBLE CHEDDAR</p>
+                <span class="precio"> SIMPLE : <b>$570</b> <br>
+                    DOBLE:  <b>$640</b>
+                </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236215874&text=Hola,%20me%20interesa%20pedir%20un%20FRIED%20ONION(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="img/hot honey.jpg" class="Producto-Img">
+                <h1 class="card-title">HONEY HOT BURGER</h1>
+                <p>BURGER CON CHEDDAR, EMENTHAL, AROS DE CEBOLLA Y ADEREZO HONEYRACHA</p>
+               <span class="precio"> SIMPLE : <b>$580</b> <br>
+               DOBLE:  <b>$690</b>
+               </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236752452&text=Hola,%20me%20interesa%20pedir%20un%20HONEY%20HOT%20BURGER(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="img/productos/american beauty.jpg" class="Producto-Img">
+                <h1 class="card-title">AMERICAN BEAUTY <b>(tambien opcion veggie)</b>  </h1>
+                <p>BURGER CON DOBLE CHEDAR, EN BASE DE PEPINOS, CEBOLLA MORADA Y SALSA THOUSANO ISLANDS</p>
+               <span class="precio"> SIMPLE : <b>$600</b> <br>
+               DOBLE:  <b>$660</b>
+               </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236215874&text=Hola,%20me%20interesa%20pedir%20un%20AMERICAN%20BEAUTY(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="img/productos/classic.jpg" class="Producto-Img">
+                <h1 class="card-title">CLASSIC <b>(tambien opcion veggie)</b></h1>
+                <p>BURGER CON DOBLE CHEDDAR, TOMATE, LECHUGA, CEBOLLA MORADA Y MAYONESA "HEINZ"</p>
+               <span class="precio"> SIMPLE : <b>$600</b> <br>
+               DOBLE:  <b>$660</b>
+               </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236752452&text=Hola,%20me%20interesa%20pedir%20un%20CLASSIC(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="img/productos/big ben.jpg" class="Producto-Img">
+                <h1 class="card-title">BIG BEN <b>(tambien opcion veggie)</b></h1>
+                <p>HOMENAJE AL BIG MAC</p>
+               <span class="precio"> SIMPLE : <b>$600</b> <br>
+               DOBLE:  <b>$660</b>
+               </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236215874&text=Hola,%20me%20interesa%20pedir%20un%20BIG%20BEN(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div><div class="productos-content">
+                <img src="img/productos/super chuni.jpg" class="Producto-Img">
+                <h1 class="card-title">SUPER CHUNI</h1>
+                <p>BURGER CON DOBLE CHEDDAR, BACON, CEBOLLA MORADA, PEPINILLOS Y KETCHUP</p>
+               <span class="precio"> SIMPLE : <b>$600</b> <br>
+               DOBLE:  <b>$690</b>
+               </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236752452&text=Hola,%20me%20interesa%20pedir%20un%20SUPER%20CHUNI(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="#" class="Producto-Img">
+                <h1 class="card-title">COMPLETA BEN</h1>
+                <p>BURGER CON DOBLE CHEDAR, JAMON ASADO, LECHUGA, TOMATE Y HUEVO A LA PLANCHA</p>
+               <span class="precio"> SIMPLE : <b>$600</b> <br>
+               DOBLE:  <b>$690</b>
+               </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=5422362158742&text=Hola,%20me%20interesa%20pedir%20un%20COMPLETA%20BEN(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="img/productos/elemmenthal watson.jpg" class="Producto-Img">
+                <h1 class="card-title">ELEMENTHAL WATSON</h1>
+                <p>BURGER TRIPLE EMENTHAL, SWEET LARDONS(SALSA THOUSAND ISLANDS)</p>
+               <span class="precio"> SIMPLE : <b>$620</b> <br>
+               DOBLE:  <b>$700</b>
+               </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236752452&text=Hola,%20me%20interesa%20pedir%20un%20ELEMENTHAL%20WATSON(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="img/productos/CFB.jpg" class="Producto-Img">
+                <h1 class="card-title">CFB</h1>
+                <p>BURGER, QUESO EMENTHAL,QUESO CHEDDAR, BACON APANADO Y FRITO Y SALSA ALIOLI</p>
+               <span class="precio"> SIMPLE : <b>$630</b> <br>
+               DOBLE:  <b>$740</b>
+               </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236215874&text=Hola,%20me%20interesa%20pedir%20un%20CFB(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="img/productos/bluecheese.jpg" class="Producto-Img">
+                <h1 class="card-title">BLUECHEESE</h1>
+                <p>BURGUER CON QUESO AZUL, CEBOOLA SALTEADA CON HONGOS</p>
+               <span class="precio"> SIMPLE : <b>$630</b> <br>
+               DOBLE:  <b>$740</b>
+               </span>
+                <div class="button-add">
+                    <a href="https://api.whatsapp.com/send?phone=542236752452&text=Hola,%20me%20interesa%20pedir%20un%20BLUECHEESE(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="img/productos/mollejon.jpg" class="Producto-Img">
+                <h1 class="card-title">MOLLEJON</h1>
+                <p>BURGER CON CHEDDAR, DOBLE BACON, PROVOLETA, MOLLEJAS, TOMATE Y CEBOLLA MORADA</p>
+               <span class="precio"> SIMPLE : <b>$810</b> <br>
+               DOBLE:  <b>$930</b>
+               </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236215874&text=Hola,%20me%20interesa%20pedir%20un%20MOLLEJON(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+            <div class="productos-content">
+                <img src="img/productos/F4.jpg" class="Producto-Img">
+                <h1 class="card-title">FANTASTIC 4</h1>
+                <p>BURGER CON QUESO AZUL, DOBLE QUESO DANBO, CUADRUPLE CHEDDAR, MOZZARELLA, DOBLE BACON, CEBOLLA CARAMELIZADA Y BARBACOA "HUNT'S"</p>
+               <span class="precio"> SIMPLE : <b>$810</b> <br>
+               DOBLE:  <b>$930</b>
+               </span>
+                <div class="button-add">
+              <a href="https://api.whatsapp.com/send?phone=542236752452&text=Hola,%20me%20interesa%20pedir%20un%20FANTASTIC4(insertar%20si%20simple%20o%20doble)%20con:">COMPRAR</a>
+                </div>
+            </div>
+         </div>
+        </section>
+    </main>
+   <div class="flotantes">
+    <input type="checkbox" id="btn-mas">
+    <div class="icon__social">
+        <a href="https://www.instagram.com/benburgermdq/" target="_blank">
+        <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+    <div class="icon__social">
+        <a href="https://api.whatsapp.com/send?phone=542236752452" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <div class="icon__social">
+        <a href="https://api.whatsapp.com/send?phone=542236215874" target="_blank">
+         <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <div class="icon__social">
+        <a href="mailto:benburgermdq@gmail.com" target="_blank">
+        <i class="far fa-envelope"></i>
+        </a>
+    </div>
+    <div class="btn-mas">
+        <label for="btn-mas">
+        <i class="fas fa-plus"></i>
+        </label>
+    </div> 
+</div> 
+  <section class="acompanamientos" id="acompañamientos">
+      <div class="acompanamientos-cont">
+          <div class="acompanamientos-title">
+              <h1>ACOMPAÑAMIENTOS</h1>
+          </div>
+          <div class="acompanamientos-grid">
+              <div class="papas-info">
+                  <h1>PAPAS</h1>
+                  <div class="papas-menu">
+                      <h3>AGRANDAS PAPAS:</h3>
+                      <span>$150</span>
+                  </div>
+                  <div class="papas-menu">
+                    <h3>PAPAS EXTRA:</h3>
+                    <span>$250</span>
+                  </div>
+                  <div class="papas-menu">
+                    <h3>CON CHEDDAR:</h3>
+                    <span>INDIVIDUAL: $330 <br> DOBLE: $430</span>
+                  </div>
+                  <div class="papas-menu">
+                    <h3>CON CHEDDAR Y BACON:</h3>
+                    <span>INDIVIDUAL: $440 <br> DOBLE: $540</span>
+                  </div>
+                  <div class="papas-menu">
+                    <h3>PAPAS BEN:</h3>
+                    <span>INDIVIDUAL: $660 <br> DOBLE: $700</span>
+                  </div>
+              </div>
+              <div class="bebidas-info">
+                <h1>BEBIDAS</h1>
+                 <div class="bebidas-menu">
+                    <h3>AGUA MINERAL:</h3>
+                    <span>$100</span>
+                 </div>
+                 <div class="bebidas-menu">
+                  <h3>GASEOSAS LINEA PEPSI:</h3>
+                  <span>$120</span>
+                 </div>
+                 <div class="bebidas-menu">
+                  <h3>BIRRA X LITRO Y LATA BOHR :</h3>
+                  <span>CONSULTAR</span>
+                 </div>
+                 <div class="topping-info">
+                     <h1>TOPPINGS</h1>
+                     <div class="toppings-menu">
+                         <h3>MEDALLÓN EXTRA: </h3>
+                         <span>$180</span>
+                     </div>
+                    <div class="toppings-menu">
+                        <h3>CHEDDAR: </h3>
+                        <span>$100</span>
+                    </div><div class="toppings-menu">
+                        <h3>BACON: </h3>
+                        <span>$120</span>
+                    </div><div class="toppings-menu">
+                        <h3>HUEVO A LA PLANCHA: </h3>
+                        <span>$100</span>
+                    </div><div class="toppings-menu">
+                        <h3>JAMÓN ASADO: </h3>
+                        <span>$110</span>
+                    </div><div class="toppings-menu">
+                        <h3>QUESO DANBO: </h3>
+                        <span>$100</span>
+                    </div><div class="toppings-menu">
+                        <h3>PROVOLETA: </h3>
+                        <span>$180</span>
+                    </div><div class="toppings-menu">
+                        <h3>CEBOLLA CARAMELIZADA: </h3>
+                        <span>$110</span>
+                    </div><div class="toppings-menu">
+                        <h3>LECHUGA: </h3>
+                        <span>$90</span>
+                    </div><div class="toppings-menu">
+                        <h3>TOMATE: </h3>
+                        <span>$90</span>
+                    </div>
+                    <div class="toppings-menu">
+                        <h3>PEPINO: </h3>
+                        <span>$90</span>
+                    </div>
+                    <div class="toppings-menu">
+                        <h3>DIP DE SALSAS: </h3>
+                        <span>$60</span>
+                    </div>
+                 </div>
+              </div>
+          </div>
+      </div>
+  </section>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>
