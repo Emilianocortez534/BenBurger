@@ -1,0 +1,85 @@
+img{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.main{
+    padding: 20px;
+    background-color: black;
+
+}
+
+.page-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px
+}
+
+.productos-content{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.main-title{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+
+.productos-content h1{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+
+ .productos-content:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255, 0.5);
+
+}
+
+
+
+.productos-content p{
+    font-weight: bold;
+    text-align: center;
+    
+} 
+
+/*BOTONES DE AGREGAR*/
+
+ .button-add {
+    margin: auto;
+    align-items: center;
+    margin-left: -4%;
+    width: 170px;
+    background: white;
+     border-radius: 14px; 
+     border: 2px solid #4CAF50; 
+   
+    
+    
+}
+
+.button-add a{
+    font-size: 30px;
+    margin-left: 33px;
+    color: black;
+}
+  
+.button-add:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+ 
+ 
+@media (min-width: 700px){
+    .page-content{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
