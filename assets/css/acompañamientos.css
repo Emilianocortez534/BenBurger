@@ -63,6 +63,15 @@
 .papas-menu h3{
     font-size: 20px;
 }
+.info-papas{
+    width: 274px;
+    margin-left: -52px;
+
+}
+
+.info-papas h3{
+    margin-left: -88px;
+}
 
 .papas-menu span{
     margin-left: 50px;
